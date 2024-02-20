@@ -1,0 +1,112 @@
+*{
+    background-color: rgb(43, 226, 211);
+}
+.h2{
+    margin-left: 100px;
+    text-align: center;
+    width: 100px;
+    border-radius: 5px;
+}
+.content{
+    background-color: rgb(0, 255, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 470px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 5px;
+    border-color: rgb(0, 255, 170);
+    border: solid 2px;
+}
+.flexbox{
+    background-color: rgb(0, 255, 213);
+    width: 260px;
+    height: 420px;
+    border: solid 1px;
+    border-color:rgb(0, 255, 170);
+    margin: 30px;
+    border-radius: 10px;
+}
+.flexbox:hover{
+    box-shadow: 0 0 15px red;
+}
+.img {
+    width: 260px;
+    height: 210px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.coeur {
+    margin-left: 145px;
+    margin-top: 18px;
+}
+.quantites {
+    display: flex;
+    margin-top: -20px;
+}
+.quantité{
+    width: 70px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: black;
+    background:rgb(43, 226, 211);
+    margin-top: 17px;
+    margin-left: 15px;
+}
+.zéro{
+    border-left: solid 1px  black;
+    border-right: solid 1px  black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.div {
+    margin-top: -18px;
+}
+.like{
+   display: flex; 
+   margin-top: -4px;
+}
+.supprimer {
+    margin-left: 218px;
+    margin-top: -5px;
+}
+.principal {
+    display: flex;
+}
+.prixtot {
+    margin-top: 80px;
+    margin-left: -40px;
+}
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+.prixtot button{
+    width: 200px;
+    height: 50px;
+    border: solid 2px;
+    font-size: large;
+    font-weight: 900;
+    color: black;
+    background-color:rgb(0, 255, 221) ;
+}
+
+.prixtot button:hover{
+    background-color: red;
+    box-shadow: 0 0 10px red;
+}
+.price{
+    display: flex;
+}
+.fas{
+    color: #f50057;
+    transition: .4s;
+}

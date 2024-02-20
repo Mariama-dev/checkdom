@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkpointdom</title>
+    <link rel="stylesheet" href="script.css">
+    <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h2>Panier</h2>
+    <div class="principal">
+        <div class="content">
+            <div id="flex1" class="flexbox">
+        <img class="img"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvcO_CG2c4_7Sn8vprn4uYuJw6VSxuzfOnhQ&usqp=CAU" alt="#">
+      <div class="like">
+         <div class="prix">
+            <h3 class="price">prix unitaire: 10000</h3>
+         </div>
+         <div class="coeur">
+            <button><i onclick="toggle1()" id="likeBtn1" class="far fa-heart"></i>
+            </button>
+         </div>
+      </div> 
+      <div class="quantites">
+        <h3 class="quantite QuantiTE">Quantités:</h3>
+        <div class="quantité">
+            <button class="moins ">-</button>
+            <span class="zéro ">0</span>
+            <button class="plus ">+</button>
+        </div>
+
+      </div>  
+      <div class="div">
+        <h3 class="prixunit">sous-prix: <span class="totalPrice1">0</span></h3>
+        <button onclick="deletearticle1()" class="supprimer"><i class="fa fa-trash-o"></i></button>
+    </div>   
+    </div>
+
+
+
+    <div id="flex2" class="flexbox">
+        <img class="img"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2SwHBfl4rTJ6YxFk8eIMO4ljhSTldmhkIug&usqp=CAU" alt="#">
+        <div class="like">
+            <div class="prix">
+               <h3 class="price">prix unitaire: 12000</h3>
+            </div>
+            <div class="coeur">
+               <button><i onclick="toggle2()" id="likeBtn2" class="far fa-heart"></i>
+               </button>
+            </div>
+         </div> 
+         <div class="quantites">
+           <h3 class="quantite QuantiTE">Quantités:</h3>
+           <div class="quantité">
+               <button class="moins MOINS">-</button>
+               <span class="zéro ZERO">0</span>
+               <button class="plus PLUS">+</button>
+           </div>
+   
+         </div>  
+         <div class="div">
+           <h3 class="prixunit">sous-prix: <span class="totalPrice2">0</span></h3>
+           <button onclick="deletearticle2()" class="supprimer"><i class="fa fa-trash-o"></i></button>
+       </div>   
+       </div>
+
+
+       <div id="flex3" class="flexbox">
+        <img class="img"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi7pkzdTsTJhMJ3sD6NMdI2HEsrXOM5JIllw&usqp=CAU" alt="#">
+       <div class="like">
+        <div class="prix">
+           <h3 class="price">prix unitaire: 15000 </h3>
+        </div>
+        <div class="coeur">
+           <button><i onclick="toggle3()" id="likeBtn3" class="far fa-heart"></i>
+           </button>
+        </div>
+     </div> 
+     <div class="quantites">
+       <h3 class="quantite QuantiTE">Quantités:</h3>
+       <div class="quantité">
+           <button class="moins sub">-</button>
+           <span class="zéro zero">0</span>
+           <button class="plus add">+</button>
+       </div>
+
+     </div>  
+     <div class="div">
+       <h3 class="prixunit">sous-prix: <span class="totalPrice3">0</span></h3>
+       <button onclick="deletearticle3()" class="supprimer"><i class="fa fa-trash-o"></i></button>
+   </div>   
+   </div>
+    </div>
+      <div class="prixtot">
+        <h4>prix total: <span class="total">0</span></h4>
+        <button type="submit">ACHETER</button>
+      </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
